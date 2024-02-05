@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background: url("img/1.jpg");
+}
+
+.bg{
+    color: white;
+    height: 100px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    /* background-image: url("/img/3.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.bg h1{
+    font-size: 8vw;
+    position: absolute;
+    top: -25px;
+    transition: all ease-in 2s;
+}
+.bg h1:hover{
+    font-size: 9vw;
+}
+.contener{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+  /* background-color: red; */
+}
+
+textarea{
+    width: 14vw;
+    height:25vw;
+    font-weight: bold;
+    font-size: 180%;
+    z-index: 5;
+     border: 3px solid white;
+     background: url("video/Network\(480p\).mp4");
+    background-position: center;
+    color: white;
+}
+textarea:hover{
+    border: 5px solid white;
+}
+video{
+    position:absolute;
+    top: 13%;
+    height: 25vw;
+    z-index: -7;
+    opacity: 0.7;
+    /* background-size: cover; */
+}
+button{
+    background-color: rgb(56, 56, 177);
+    width: 13%;
+    height: 50px;
+    border-radius: 30%;
+    color: white;
+    border-color: white;
+    transition: all ease-in 0.6s;
+
+}
+button:hover{
+    background-color: blue;
+    font-size: 100%;
+    cursor: pointer;
+    width: 15%;
+}
+a img {
+    width: 15%;
+    position: absolute;
+    top: 15%;
+    left: 60%;
+}
+a img:hover{
+
+    background-color: rgb(132, 189, 224);
+    opacity: 0.6;
+    border-radius: 40%;
+}
